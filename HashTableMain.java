@@ -2,7 +2,7 @@ package com.bridgelab.hash_table;
 
 public class HashTableMain {
 	public static void main(String[] args) {
-		System.out.println("Wwlcome in Hash Tables program");
+		System.out.println("Welcome in Hash Tables program");
 		HashTableImpl<String, Integer> hashImpl = new HashTableImpl();
 		String message = "To be or not to be";
 		String[] messageArray = message.toLowerCase().split(" ");
