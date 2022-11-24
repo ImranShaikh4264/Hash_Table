@@ -4,7 +4,7 @@ public class HashTableMain {
 	public static void main(String[] args) {
 		System.out.println("Welcome in Hash Tables program");
 		HashTableImpl<String, Integer> hashImpl = new HashTableImpl();
-		String message = "To be or not to be";
+		String message = "Paranoids are not paranoid because they are paranoid but because they keep putting themselves deliberately into paranoid avoidable situations";;
 		String[] messageArray = message.toLowerCase().split(" ");
 
 		for (String word : messageArray) {
